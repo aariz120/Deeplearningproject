@@ -1,4 +1,4 @@
-from setuptools import find_packages,
+from setuptools import find_packages,setup
 
 
 def get_requirements(file_path:str)->List[str]:
@@ -19,7 +19,7 @@ setup(
 
 
     name="Xray" ,
-    version=0.0.1,
+    version="0.0.1",
     author="aariz mobin",
     author_email="aariz120@gmail.com",
     install_requires=get_requirements(),
