@@ -1,4 +1,8 @@
 from setuptools import find_packages,setup
+from typing import List
+
+HYPEN_E_DOT='-e .'
+
 
 
 def get_requirements(file_path:str)->List[str]:
@@ -22,7 +26,7 @@ setup(
     version="0.0.1",
     author="aariz mobin",
     author_email="aariz120@gmail.com",
-    install_requires=get_requirements(),
+    install_requires=get_requirements(r"C:\\Users\\aariz\\deeplearningproject\Deeplearningproject\\requirements_dev.txt"),
     package=find_packages()
 
 
